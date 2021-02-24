@@ -1,0 +1,25 @@
+{
+  "name": "pse-cohort-centroid-contour-mockups",
+  "version": "1.0.0",
+  "description": "Mockups for centroids and cluster selection using contours, heatmaps, etc, impemented in vega",
+  "main": "index.js",
+  "dependencies": {
+    "http-server": "^0.12.3",
+    "webpack": "^5.24.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CursedSeraphim/PSE-cohort-centroid-contour-mockups.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CursedSeraphim/PSE-cohort-centroid-contour-mockups/issues"
+  },
+  "homepage": "https://github.com/CursedSeraphim/PSE-cohort-centroid-contour-mockups#readme"
+}
