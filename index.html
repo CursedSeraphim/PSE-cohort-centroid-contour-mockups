@@ -1,0 +1,196 @@
+<head>
+  <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@4"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div><h1>Playground for different settings</h1></div>
+  <div id="view0" style="height: 60%;"></div>
+  <script>
+    vegaEmbed(
+      '#view0',
+      'http://127.0.0.1:5500/specs/contours, heatmap, no marks for all data.json'
+    );
+  </script>
+
+  <div id="view1" style="height: 60%;"></div>
+  <script>
+    vegaEmbed(
+      '#view1',
+      'http://127.0.0.1:5500/specs/contours, heatmap, small marks for all data.json'
+    );
+  </script>
+
+  <div id="view2" style="height: 60%;"></div>
+  <script>
+    vegaEmbed(
+      '#view2',
+      'http://127.0.0.1:5500/specs/contours, heatmap, medium marks for all data.json'
+    );
+  </script>
+
+  <div id="view3" style="height: 60%;"></div>
+  <script>
+    vegaEmbed(
+      '#view3',
+      'http://127.0.0.1:5500/specs/contours, no heatmap, medium marks for all data.json'
+    );
+  </script>
+
+  <div id="view4" style="height: 60%;"></div>
+  <script>
+    vegaEmbed(
+      '#view4',
+      'http://127.0.0.1:5500/specs/contours, no heatmap, small marks for all data.json'
+    );
+  </script>
+
+  <div id="view5" style="height: 60%;"></div>
+  <script>
+    vegaEmbed(
+      '#view5',
+      'http://127.0.0.1:5500/specs/contours, no heatmap, no marks for all data.json'
+    );
+  </script>
+  
+  <div id="view6" style="height: 60%;"></div>
+  <script>
+    vegaEmbed(
+      '#view6',
+      'http://127.0.0.1:5500/specs/contours, no heatmap, large centroids.json'
+    );
+  </script>
+  
+  <div id="view7" style="height: 60%;"></div>
+  <script>
+    vegaEmbed(
+      '#view7',
+      'http://127.0.0.1:5500/specs/contours, no heatmap, large circles for centroids, grey out unselected.json'
+    );
+  </script>
+  
+  <div id="view8" style="height: 60%;"></div>
+  <script>
+    vegaEmbed(
+      '#view8',
+      'http://127.0.0.1:5500/specs/contours, no heatmap, large diamonds for centroids, grey out unselected.json'
+    );
+  </script>
+  
+  <div id="view9" style="height: 60%;"></div>
+  <script>
+    vegaEmbed(
+      '#view9',
+      'http://127.0.0.1:5500/specs/contours, no heatmap, large diamonds for centroids, small circles for other data, grey out unselected.json'
+    );
+  </script>
+  
+  <div id="view10" style="height: 60%;"></div>
+  <script>
+    vegaEmbed(
+      '#view10',
+      'http://127.0.0.1:5500/specs/contours, heatmap, large diamonds for centroids, small circles for other data, grey out unselected.json'
+    );
+  </script>
+  
+  <div id="view11" style="height: 60%;"></div>
+  <script>
+    vegaEmbed(
+      '#view11',
+      'http://127.0.0.1:5500/specs/contours, heatmap, large diamonds for centroids, grey out unselected.json'
+    );
+  </script>
+    
+  <div id="view12" style="height: 60%;"></div>
+  <script>
+    vegaEmbed(
+      '#view12',
+      'http://127.0.0.1:5500/specs/contours, no heatmap, large diamonds for centroids, no selection.json'
+    );
+  </script>
+  
+  <div id="view13" style="height: 60%;"></div>
+  <script>
+    vegaEmbed(
+      '#view13',
+      'http://127.0.0.1:5500/specs/contours, no heatmap, large coloured diamonds for centroids, grey for non-selected data.json'
+    );
+  </script>
+  
+  <div id="view14" style="height: 60%;"></div>
+  <script>
+    vegaEmbed(
+      '#view14',
+      'http://127.0.0.1:5500/specs/contours, no heatmap, large coloured diamonds for centroids, colour for all data.json'
+    );
+  </script>
+
+<div><h1>Favourite A, No Heatmap</h1></div>
+<div id="view_f2_0" style="height: 60%;"></div>
+<script>
+  vegaEmbed(
+    '#view_f2_0',
+    'http://127.0.0.1:5500/specs/favourite_2_no_selection.json'
+  );
+</script>
+
+<div id="view_f2_1" style="height: 60%;"></div>
+<script>
+  vegaEmbed(
+    '#view_f2_1',
+    'http://127.0.0.1:5500/specs/favourite_2_selected_1.json'
+  );
+</script>
+
+<div id="view_f2_2" style="height: 60%;"></div>
+<script>
+  vegaEmbed(
+    '#view_f2_2',
+    'http://127.0.0.1:5500/specs/favourite_2_selected_2.json'
+  );
+</script>
+
+<div id="view_f2_3" style="height: 60%;"></div>
+  <script>
+    vegaEmbed(
+      '#view_f2_3',
+      'http://127.0.0.1:5500/specs/favourite_2_selected_3.json'
+    );
+  </script>
+
+  <div><h1>Favourite B, Heatmap</h1></div>
+
+  <div id="view_f_0" style="height: 60%;"></div>
+  <script>
+    vegaEmbed(
+      '#view_f_0',
+      'http://127.0.0.1:5500/specs/favourite_2_no_selection.json'
+    );
+  </script>
+
+  <div id="view_f_1" style="height: 60%;"></div>
+  <script>
+    vegaEmbed(
+      '#view_f_1',
+      'http://127.0.0.1:5500/specs/favourite_selected_1.json'
+    );
+  </script>
+
+  <div id="view_f_2" style="height: 60%;"></div>
+  <script>
+    vegaEmbed(
+      '#view_f_2',
+      'http://127.0.0.1:5500/specs/favourite_selected_2.json'
+    );
+  </script>
+
+  <div id="view_f_3" style="height: 60%;"></div>
+    <script>
+      vegaEmbed(
+        '#view_f_3',
+        'http://127.0.0.1:5500/specs/favourite_selected_3.json'
+      );
+    </script>
+    
+</body>
